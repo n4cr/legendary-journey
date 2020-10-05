@@ -1,0 +1,6 @@
+1. pwd: When working within a filesystem, the user is always working within some directory, which we call the current directory or the working directory. Print the user's working directory with pwd.
+2. ls: List the contents of this directory.
+3. touch: 
+touch was created to modify file timestamps, but it can also be used to quickly create an empty file. You can create a new file by opening it with a text editor, like nanw
+(exit)
+
