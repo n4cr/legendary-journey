@@ -1,0 +1,122 @@
+body {
+    background-color: #015668;
+    width: 80%;
+    margin: auto;
+    
+    
+}
+.container {
+    display: flex;
+    background-color: #06648c;
+    background-image: url("..//digital-resume/images/headerpic.jpg");
+    
+}
+
+.leftbar-content {
+    display: flex;
+    flex-direction: column;
+    
+    flex-basis: 40%;
+    
+    
+}
+
+#mypic img {
+    max-width: 30%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    max-height: 5%;
+    border-radius: 10%;
+    border: 1px solid #015668;
+}
+
+.rightbar-content {
+    display: flex;
+    flex-basis: 60%;
+    flex-direction: column;
+    
+}
+.item {
+    background-color: #d9ecf2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 50px;
+    border: 3px solid #015668;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.leftbar-content h2 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 50px;
+    margin-bottom: 0%;
+  
+}
+.leftbar-content h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 50px;
+    
+    font-style: italic;
+}
+.contact a {
+    color: black;
+}
+.contact a:hover {
+    color: red;
+}
+.job-title  {
+    font-style: italic;
+    font-size: 20px;
+}
+.location {
+    font-size: 15px;
+}
+.li {
+    font-style: normal;
+}
+ /* 
+.about-me p {
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    border: 1px solid #e8e8e8;
+    margin: 10px 50px;
+    background-color: #89beb3;
+    border-radius: 10px;
+    padding-left: 10px;
+    
+}
+.contact, .certificates , .languages {
+    
+    margin: 10px 40px;
+    padding-top: 10px;
+    background-color: #89beb3;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    flex-grow: 2;
+    
+}
+.contact {
+    text-align: left
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    
+}
+  
+.email {
+    
+}
+
+.certificates {
+    
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.languages {
+    margin-top: 20px;
+    padding-left: 20px;
+} */

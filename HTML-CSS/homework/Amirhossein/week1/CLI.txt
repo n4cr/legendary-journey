@@ -1,0 +1,4 @@
+1. using a (.) befor name of the folder or the flie and it will be hidden. With ls-a the hidden files will be showen. 
+2. Using command mkdir -p x/y/z
+3. Using echo -n "some text">>filename.txt
+

@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: lightgreen;
+    
+    
+}
+h2 {
+    text-align: center;
+    background-color:#BFC9CA ;
+}
+li {
+    list-style: none;
+
+}
+
+
+
+header {
+    background-color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+}
+img {
+    width: 300px;
+}
+
+#grid-floats {
+    border: 3px solid red;
+    background-color: lightyellow;
+
+}
+#grid-float ::after {
+
+    content: asdasdads;
+    clear: both;
+    display: block;
+    background-color: black;
+}
+
+ #grid-floats .grid-item {
+    float: left;
+    margin: 20px;
+    height: 500px;
+    overflow: auto;
+    width: 22%;
+    background-color: lightpink;
+    border: 3px solid black;
+    
+}
+#grid-floats .grid-item:nth-child(1) {
+    
+    width: 44%;
+
+} 
+/* #grid-floats .grid-item:nth-child(1) {
+    float: right;
+    
+}
+ #grid-floats .grid-item:nth-child(2) {
+    float: right;
+}
+ #grid-floats .grid-item:nth-child(3) {
+    float: right;
+    width: 44%;
+
+} 
+ #grid-floats .grid-item:nth-child(4) {
+    float: right;
+    
+    
+} 
+ #grid-floats .grid-item:nth-child(5) {
+    float: right;
+    
+}  #grid-floats .grid-item:nth-child(6) {
+    float: right;
+    
+}
+ #grid-floats .grid-item:nth-child(7) {
+    float: right;
+    
+}   */
+
+
+
+
+ /* #grid-felx .grid-item {
+    display: inline-block;
+} 
+.grid-item {
+    width: 100%;
+    height: 300px;
+    border: 3px solid black;
+    background-color: lightpink;
+   
+  
+}
+
+
+#grid-floats .grid-item h3 {
+    border: 3px solid red;
+    background-color: lightcoral;
+    margin: 30px 50px;
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    
+
+}
+#grid-floats .grid-item img {
+    margin: 40px 2% 2% 2%;
+    position: relative;
+    right: 40px;
+    float: right;
+    border: 3px solid blue;
+}
+#grid-floats .grid-item p{
+    background-color: lightcyan;
+    margin: 30px 50px;
+    width: 40%;
+    clear: both;
+    position: relative;
+    bottom: 160px;
+    left: 50px;
+} 
+ */
+/* section:nth-child(2) {
+    clear: both;
+} */
+/* .fix {
+    clear: both;
+} */
+#grid-flex {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+#grid-flex .grid-item {
+    flex-basis: 25%;
+    background-color: skyblue;
+    border: 3px solid black;
+    
+}
+
+
+
+
+
+
+
+
