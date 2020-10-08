@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; 
     background-color: lightgreen;
     
     
@@ -35,15 +35,7 @@ img {
     background-color: lightyellow;
 
 }
-#grid-float ::after {
-
-    content: asdasdads;
-    clear: both;
-    display: block;
-    background-color: black;
-}
-
- #grid-floats .grid-item {
+#grid-floats .grid-item {
     float: left;
     margin: 20px;
     height: 500px;
@@ -53,41 +45,46 @@ img {
     border: 3px solid black;
     
 }
+#grid-floats::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+
+
 #grid-floats .grid-item:nth-child(1) {
     
     width: 44%;
 
 } 
-/* #grid-floats .grid-item:nth-child(1) {
-    float: right;
-    
-}
- #grid-floats .grid-item:nth-child(2) {
-    float: right;
-}
- #grid-floats .grid-item:nth-child(3) {
-    float: right;
-    width: 44%;
+.grid-item:nth-child(1) h3 {
+    margin-top: 10px;
+    text-align: center;
 
-} 
- #grid-floats .grid-item:nth-child(4) {
-    float: right;
-    
-    
-} 
- #grid-floats .grid-item:nth-child(5) {
-    float: right;
-    
-}  #grid-floats .grid-item:nth-child(6) {
-    float: right;
-    
 }
- #grid-floats .grid-item:nth-child(7) {
-    float: right;
-    
-}   */
 
-
+.grid-item:nth-child(1) p {
+    width: 80%;
+    background-color: lightblue;
+    margin-left: 40px;
+}
+#grid-floats .grid-item h3 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#grid-floats .grid-item p {
+    text-align: center;
+}
+#grid-floats .grid-item img {
+    margin: 30px auto;
+    border: 3px solid red;
+}
+#grid-floats .grid-item:nth-child(1) img {
+    border: 3px solid yellow;
+    margin: 30px 25%;
+}
 
 
  /* #grid-felx .grid-item {
@@ -103,17 +100,7 @@ img {
 }
 
 
-#grid-floats .grid-item h3 {
-    border: 3px solid red;
-    background-color: lightcoral;
-    margin: 30px 50px;
-    float: left;
-    position: relative;
-    top: 30px;
-    left: 50px;
-    
 
-}
 #grid-floats .grid-item img {
     margin: 40px 2% 2% 2%;
     position: relative;
