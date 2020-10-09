@@ -1,8 +1,0 @@
-1- touch text.txt --> We can creat a new file with this command.
-2- mkdir newfolder --> We can creat new folder with this command.
-3- ls -a --> Show the list of files and folders of present directory.
-4- cat filename --> Show the data inside file.
-5- nano filename --> Open file with nano editor.
-6- cd --> changing directory by this command.
-7- code . --> Open directory in default code editor.
-8- start filename --> Open file with default application.

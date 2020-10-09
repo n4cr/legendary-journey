@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #1d2d50;
+  color: #fcdab7;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: #144554;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.description,
+.personal-info,
+.education,
+.experience,
+.topic,
+.text {
+  background-color: #1e5f74;
+}
+
+.avatar {
+  max-width: 40%;
+  display: block;
+  height: auto;
+  margin: 30px auto;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.description {
+  margin: 20px;
+  font-size: 1rem;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #fcdab7;
+  border-radius: 5px;
+}
+
+.description li {
+  list-style: none;
+  margin: 5px;
+  border: 1px solid #fcdab7;
+  background-color: #1d2d50;
+  border-radius: 5px;
+}
+
+.personal-info,
+.education,
+.experience,
+.text {
+  margin: 20px;
+  font-size: 1rem;
+  padding: 10px;
+  border: 1px solid #fcdab7;
+  border-radius: 5px;
+}
+
+.topic {
+  margin: 47px 20px;
+  font-size: 3rem;
+  border: 1px solid #fcdab7;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.personal-info dt {
+  font-size: 1.5rem;
+}
+
+.personal-info dd {
+  margin-left: 120px;
+}
+
+.personal-info h2,
+.education h2,
+.experience h2,
+.text h2 {
+  margin-bottom: 10px;
+  border: 1px solid #fcdab7;
+  background-color: #1d2d50;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.education,
+.experience,
+.text {
+  padding: 20px;
+}
+
+.education li,
+.experience li {
+  list-style-position: inside;
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
