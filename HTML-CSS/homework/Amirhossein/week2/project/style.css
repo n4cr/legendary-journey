@@ -5,9 +5,7 @@
 }
 body {
     font-family: 'Poppins', sans-serif; 
-    background-color: lightgreen;
-    
-    
+   
 }
 h2 {
     text-align: center;
@@ -24,10 +22,14 @@ header {
     text-align: center;
     margin: auto;
 }
+h3:hover {
+    color: red;
+    
+}
 img {
     width: 290px;
+    
 }
-
 #grid-floats {
     
     background-color: white;
@@ -35,10 +37,11 @@ img {
 }
 #grid-floats .grid-item {
     float: left;
-    margin: 20px;
+    margin: 10px;
     height: 500px;
     overflow: auto;
-    width: 22%;
+    width: 23%;
+    
 
     
 }
@@ -50,7 +53,8 @@ img {
 }
 
 #grid-floats .grid-item:nth-child(1) {
-    width: 44%;
+    width: 47%;
+    
 } 
 .grid-item:nth-child(1) h3 {
     margin-top: 10px;
@@ -62,12 +66,12 @@ img {
     width: 80%;
     margin-left: 40px;
 }
-#grid-floats .grid-item h3 {
+.grid-item h3 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-#grid-floats .grid-item p {
+.grid-item p {
     text-align: center;
 }
 #grid-floats .grid-item img {
@@ -80,43 +84,6 @@ img {
 }
 
 
- /* #grid-felx .grid-item {
-    display: inline-block;
-} 
-.grid-item {
-    width: 100%;
-    height: 300px;
-    border: 3px solid black;
-    background-color: lightpink;
-   
-  
-}
-
-
-
-#grid-floats .grid-item img {
-    margin: 40px 2% 2% 2%;
-    position: relative;
-    right: 40px;
-    float: right;
-    border: 3px solid blue;
-}
-#grid-floats .grid-item p{
-    background-color: lightcyan;
-    margin: 30px 50px;
-    width: 40%;
-    clear: both;
-    position: relative;
-    bottom: 160px;
-    left: 50px;
-} 
- */
-/* section:nth-child(2) {
-    clear: both;
-} */
-/* .fix {
-    clear: both;
-} */
 #grid-flex {
     display: flex;
     flex-wrap: wrap;
@@ -124,13 +91,28 @@ img {
     
 }
 #grid-flex .grid-item {
-    flex-basis: 25%;
-    background-color: skyblue;
-    border: 3px solid black;
+    flex-basis: 23%;
+    text-align: center;
+    margin: 10px;
+    
     
 }
 
+#grid-flex .grid-item:nth-child(1) {
+    flex-basis: 47%;
+    text-align: center;
+    
+}
 
+#grid-flex .grid-item:nth-child(1) img {
+    width: 400px;
+}
+
+
+#grid-flex .grid-item img {
+    
+    
+}
 
 
 
