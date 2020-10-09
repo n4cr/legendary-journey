@@ -7,9 +7,14 @@ body {
     font-family: 'Poppins', sans-serif; 
    
 }
+h1 {
+
+}
 h2 {
+    font-size: 30px;
     text-align: center;
     background-color:#BFC9CA ;
+    
 }
 li {
     list-style: none;
@@ -17,6 +22,7 @@ li {
 }
 
 header {
+    font-size: 65px;
     background-color: aliceblue;
     font-size: 30px;
     text-align: center;
@@ -34,17 +40,22 @@ img {
 }
 #grid-floats {
     background-color: white;
+    
 
 }
 .grid-item {
+    border: 3px solid black;
     transition: 1000ms;
     border-radius: 3%;
+
 }
 .grid-item:hover {
     transform: scale(1.1);
     box-shadow: 2px 2px 2px #000;
     
 }
+    
+
 #grid-floats .grid-item {
     float: left;
     margin: 10px;
@@ -85,6 +96,8 @@ img {
 }
 .grid-item p {
     text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
     
 }
 
@@ -93,7 +106,6 @@ img {
     bottom: 10px;
     
 } 
-
 
 #grid-flex {
     display: flex;
@@ -145,10 +157,7 @@ img {
         
     }
     
-    
-    
-    
-   
+
     #grid-flex .grid-item {
         flex-basis: 30%;
         text-align: center;
@@ -163,9 +172,82 @@ img {
         flex-basis: 49%;
         text-align: center;
     }
-    
 
 }
+@media screen and (max-width: 600px) {
+    
 
-
+    #grid-floats .grid-item {
+        width: 90%;
+        float: none;
+        margin: 20px;
+        height: auto;
+        
+        
+        
+    }
+    
+    
+    #grid-floats .grid-item:nth-child(1) {
+        width: 90%;
+        float: none;
+        margin: 20px;
+        height: auto;
+        
+        
+    } 
+    .grid-item:nth-child(1) h3 {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .grid-item:nth-child(1) img {
+        
+        margin-top: 10px;
+        margin-bottom:25px;
+    }
+    
+    .grid-item:nth-child(1) p {
+        text-align: justify;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+    .grid-item h3 {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .grid-item p {
+        text-align: justify;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+    
+     #grid-floats .grid-item img {
+        position: relative;
+        bottom: 10px;
+        
+    } 
+    
+    #grid-flex {
+        display: flex;
+        flex-wrap: wrap; 
+    }
+    #grid-flex .grid-item {
+        flex-basis: 23%;
+        text-align: center;
+        margin: 10px;
+    }
+    
+    #grid-flex .grid-item:nth-child(1) {
+        flex-basis: 47%;
+        text-align: center;
+    }
+    
+    #grid-flex .grid-item:nth-child(1) img {
+        width: 60%;
+    }
+    
 
