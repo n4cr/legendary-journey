@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'alex';
+  src: url('fonts/AlexBrush.ttf');
+}
+
+body {
+  font-family: 'alex';
+  background-color: #fc9d9d;
+}
+
+#wrap {
+  width: 50%;
+  margin: 50px auto;
+  background-color: #900c3f;
+  color: #ffcac2;
+  padding: 10px 30px 10px 30px;
+  border: 5px solid red;
+  border-radius: 10px;
+}
+
+.thepost h1 {
+  font-size: 5rem;
+}
+
+.thepost h2 {
+  display: inline;
+  font-size: 0.9rem;
+  padding: 3px;
+}
+
+.postparag {
+  padding: 20px;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.postparag p::first-letter {
+  font-size: 2rem;
+  color: red;
+}
+
+.postfooter {
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+.thepost img {
+  max-width: 30%;
+  float: right;
+  display: block;
+  height: auto;
+}

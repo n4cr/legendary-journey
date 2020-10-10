@@ -1,0 +1,8 @@
+Q1: How do I create a hidden file or folder? How do I display it in the CLI?
+Answer: We can create a hidden file by add "." at the beginning of the name of file. We can see hidden files bye type " ls -a ".
+Q2: How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+Answer: We can do it by this code: " mkdir -p /myusername/these/folders/are/just/for/fun " .
+Q3: How do I append a message to a file, without a newline character, so the output would be:
+first message
+second message
+Answer: We can do it by these codes: 'echo "first message" >> CLI.txt' and  'echo "second message" >> CLI.txt' .
