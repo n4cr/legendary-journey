@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif; 
+   
+}
+h1 {
+
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+    background-color:#BFC9CA ;
+    
+}
+li {
+    list-style: none;
+
+}
+
+header {
+    font-size: 65px;
+    background-color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+}
+h3:hover {
+    color: red;
+    
+}
+img {
+    width: 60%;
+    margin: auto;
+    display: block;
+    
+}
+#grid-floats {
+    background-color: white;
+    
+
+}
+.grid-item {
+    border: 3px solid black;
+    transition: 1000ms;
+    border-radius: 3%;
+
+}
+.grid-item:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px #000;
+    
+}
+    
+
+#grid-floats .grid-item {
+    float: left;
+    margin: 10px;
+    height: 400px;
+    width: 23%;
+    
+    
+}
+#grid-floats::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+
+#grid-floats .grid-item:nth-child(1) {
+    width: 47%;
+    
+} 
+.grid-item:nth-child(1) h3 {
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.grid-item:nth-child(1) p {
+    width: 80%;
+    margin-left: 40px;
+    position: relative;
+    bottom: 50px;
+    
+    
+}
+.grid-item h3 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.grid-item p {
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+ #grid-floats .grid-item img {
+    position: relative;
+    bottom: 10px;
+    
+} 
+
+#grid-flex {
+    display: flex;
+    flex-wrap: wrap; 
+}
+#grid-flex .grid-item {
+    flex-basis: 23%;
+    text-align: center;
+    margin: 10px;
+}
+
+#grid-flex .grid-item:nth-child(1) {
+    flex-basis: 47%;
+    text-align: center;
+}
+
+#grid-flex .grid-item:nth-child(1) img {
+    width: 60%;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    
+    
+    #grid-floats .grid-item {
+        width: 29%;
+        
+    }
+    
+    #grid-floats .grid-item:nth-child(1) {
+        width: 46%;
+        
+    } 
+    #grid-floats .grid-item:nth-child(2) {
+        width: 46%;
+        
+    } 
+    .grid-item:nth-child(1) h3 {
+        margin-top: 10px;
+        text-align: center;
+    
+    }
+    
+    .grid-item:nth-child(1) p {
+        width: 80%;
+        margin-left: 40px;
+        margin-top: 20px;
+        position: relative;
+        bottom: 20px;
+        
+    }
+    
+
+    #grid-flex .grid-item {
+        flex-basis: 30%;
+        text-align: center;
+        margin: 10px;
+    }
+    
+    #grid-flex .grid-item:nth-child(1) {
+        flex-basis: 49%;
+        text-align: center;
+    }
+    #grid-flex .grid-item:nth-child(12) {
+        flex-basis: 49%;
+        text-align: center;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    
+
+    #grid-floats .grid-item {
+        display: flex;
+        flex-direction: column;
+        
+        
+        
+        
+    }
+    
+  
+    
+
