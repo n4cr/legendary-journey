@@ -177,17 +177,16 @@ img {
 @media screen and (max-width: 600px) {
     
 
-        width: 90%;
-        float: none;
-        margin: 20px;
-        height: auto;
+    #grid-floats .grid-item {
+        display: flex;
+        flex-direction: column;
         
         
         
     }
     
     
-    #grid-floats .grid-item:nth-child(1) {
+    /* #grid-floats .grid-item:nth-child(1) {
         width: 90%;
         float: none;
         margin: 20px;
@@ -248,5 +247,5 @@ img {
     #grid-flex .grid-item:nth-child(1) img {
         width: 60%;
     }
-    
+     */
 
