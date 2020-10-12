@@ -178,15 +178,26 @@ img {
     
 
     #grid-floats .grid-item {
+<<<<<<< HEAD
         display: flex;
         flex-direction: column;
+=======
+        width: 90%;
+        float: none;
+        margin: 20px;
+        height: auto;
+>>>>>>> 0d76a193efcf02392a190993dd1af7f64b920bf3
         
         
         
     }
     
     
+<<<<<<< HEAD
     /* #grid-floats .grid-item:nth-child(1) {
+=======
+    #grid-floats .grid-item:nth-child(1) {
+>>>>>>> 0d76a193efcf02392a190993dd1af7f64b920bf3
         width: 90%;
         float: none;
         margin: 20px;
@@ -247,5 +258,9 @@ img {
     #grid-flex .grid-item:nth-child(1) img {
         width: 60%;
     }
+<<<<<<< HEAD
      */
+=======
+    
+>>>>>>> 0d76a193efcf02392a190993dd1af7f64b920bf3
 
