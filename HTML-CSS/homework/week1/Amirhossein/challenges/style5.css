@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #B0A087;
+}
+#header {
+    background-color: white;
+    margin-top: 20px;
+    border: solid red;
+    }
+#header blockquote {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 50px;
+    padding-top: 40px;
+    font-size: xx-large;
+    font-style: italic;
+    background-color: white;
+    border: solid black;
+}
+#logo h1 {
+    display: none;
+}
+#logo img {
+    margin-left: 30px;
+    padding-right: 60px;
+    border:  solid blue;
+}
+#content {
+    border: solid  yellow;
+    
+}
+#content-side {
+    float: left;
+    width: 30%;
+    border: solid blue;
+    box-sizing: border-box;
+}
+#content-main {
+    float: right;
+    border: solid brown;
+    width: 70%;
+    box-sizing: border-box;
+}
