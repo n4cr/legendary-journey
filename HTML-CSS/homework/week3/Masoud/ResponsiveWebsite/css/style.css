@@ -1,0 +1,30 @@
+nav {
+  padding: 3px;
+}
+
+.nav-wrapper a img {
+  vertical-align: middle;
+  padding-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.fixborder {
+  border: 3px solid white;
+}
+
+.fixborder:hover {
+  border-top: 3px solid #0abf53;
+  background-color: white;
+}
+
+.fixbtn {
+  padding-top: 3px;
+}
+
+.fixbtn2 {
+  background-color: #0abf53 !important;
+}
+.fixbtn2:hover {
+  background-color: #078f3e !important;
+}
