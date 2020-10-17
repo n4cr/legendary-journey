@@ -24,13 +24,15 @@ nav {
 
 .fixbtn2 {
   background-color: #0abf53 !important;
+  border-radius: 3px;
 }
 .fixbtn2:hover {
   background-color: #078f3e !important;
 }
 
-.card-content {
-  padding: 0px 150px 0px 20px !important;
+.fixcard {
+  width: 700px;
+  padding: 0px 0px 0px 120px !important;
 }
 
 .card-content h2 {
@@ -43,4 +45,42 @@ nav {
 .card-content p {
   font-size: 20px !important;
   margin-bottom: 30px !important;
+}
+
+.section3 {
+  width: 100%;
+  background-color: #f3f6f9;
+  display: flex;
+  text-align: center;
+  padding: 100px 20px;
+  justify-content: center;
+}
+.section3item {
+  padding: 0px 20px;
+}
+.section3item1 {
+  flex: 1;
+}
+.section3item2 {
+  flex: 1;
+}
+.section3item3 {
+  flex: 1;
+}
+
+.section3item a {
+  color: #078f3e;
+}
+
+.section3item a:hover {
+  border-bottom: 1px solid #0abf53;
+  padding-bottom: 5px;
+}
+
+.fixpadding {
+  margin-left: 50px;
+}
+
+.section4card1 {
+  width: 50%;
 }
