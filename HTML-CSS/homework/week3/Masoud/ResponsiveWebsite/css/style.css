@@ -28,3 +28,19 @@ nav {
 .fixbtn2:hover {
   background-color: #078f3e !important;
 }
+
+.card-content {
+  padding: 0px 150px 0px 20px !important;
+}
+
+.card-content h2 {
+  font-size: 4rem !important;
+  font-weight: 700 !important;
+  line-height: 70px !important;
+  margin-bottom: 40px !important;
+}
+
+.card-content p {
+  font-size: 20px !important;
+  margin-bottom: 30px !important;
+}
