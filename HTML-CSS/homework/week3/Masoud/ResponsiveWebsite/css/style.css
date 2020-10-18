@@ -2,6 +2,11 @@ nav {
   padding: 3px;
 }
 
+.navfix a {
+  font-size: 1.4vw;
+  padding: 0 5px;
+}
+
 .nav-wrapper a img {
   vertical-align: middle;
   padding-bottom: 5px;
@@ -31,18 +36,18 @@ nav {
 }
 
 .fixcard {
-  width: 700px;
-  padding: 0px 0px 0px 120px !important;
+  width: auto;
+  padding: 0 0px 0px 10px !important;
 }
 
-.card-content h2 {
+.fxs1 h2 {
   font-size: 4rem !important;
   font-weight: 700 !important;
   line-height: 70px !important;
   margin-bottom: 40px !important;
 }
 
-.card-content p {
+.fxs1 p {
   font-size: 20px !important;
   margin-bottom: 30px !important;
 }
@@ -55,6 +60,7 @@ nav {
   padding: 100px 20px;
   justify-content: center;
 }
+
 .section3item {
   padding: 0px 20px;
 }
@@ -68,17 +74,13 @@ nav {
   flex: 1;
 }
 
-.section3item a {
+.fixlink {
   color: #078f3e;
 }
 
-.section3item a:hover {
+.fixlink:hover {
   border-bottom: 1px solid #0abf53;
   padding-bottom: 5px;
-}
-
-.fixpadding {
-  margin-left: 50px;
 }
 
 .section4card1 {
@@ -100,4 +102,57 @@ nav {
 
 .s9fb {
   background-color: #031033 !important;
+}
+
+.fxs4-1 {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.fxs4-1 h2 {
+  font-size: 3rem !important;
+  font-weight: 700 !important;
+  line-height: 50px !important;
+}
+
+.fxs4-1 p {
+  font-size: 1.5rem !important;
+  margin-bottom: 20px !important;
+}
+
+.fxs4-2 h2 {
+  font-size: 30px !important;
+  font-weight: 900;
+}
+
+.fxs4-2 p {
+  font-size: 20px !important;
+  margin-bottom: 10px !important;
+}
+
+.fxfi li a {
+  list-style: none !important;
+  font-size: 18px;
+  color: white;
+}
+
+.fxfi li a:hover {
+  border-bottom: 1px solid #0abf53;
+}
+
+.footer-copyright {
+  padding: 0 10px !important;
+}
+
+@media screen and (max-width: 730px) {
+  .section3 {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .section3item {
+    padding: 30px 0;
+  }
+  .fxs4-1 {
+    width: 100%;
+  }
 }
