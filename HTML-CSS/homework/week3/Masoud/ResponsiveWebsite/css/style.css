@@ -144,6 +144,13 @@ nav {
   padding: 0 10px !important;
 }
 
+.fxs5 {
+  margin: 20px 0px !important;
+}
+.ftso {
+  margin: 10px;
+}
+
 @media screen and (max-width: 730px) {
   .section3 {
     flex-direction: column;
