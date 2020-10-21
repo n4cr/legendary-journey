@@ -1,0 +1,165 @@
+nav {
+  padding: 3px;
+}
+
+.navfix a {
+  font-size: 1.4vw;
+  padding: 0 5px;
+}
+
+.nav-wrapper a img {
+  vertical-align: middle;
+  padding-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.fixborder {
+  border: 3px solid white;
+}
+
+.fixborder:hover {
+  border-top: 3px solid #0abf53;
+  background-color: white;
+}
+
+.fixbtn {
+  padding-top: 3px;
+}
+
+.fixbtn2 {
+  background-color: #0abf53 !important;
+  border-radius: 3px;
+}
+.fixbtn2:hover {
+  background-color: #078f3e !important;
+}
+
+.fixcard {
+  width: auto;
+  padding: 0 0px 0px 10px !important;
+}
+
+.fxs1 h2 {
+  font-size: 4rem !important;
+  font-weight: 700 !important;
+  line-height: 70px !important;
+  margin-bottom: 40px !important;
+}
+
+.fxs1 p {
+  font-size: 20px !important;
+  margin-bottom: 30px !important;
+}
+
+.section3 {
+  width: 100%;
+  background-color: #f3f6f9;
+  display: flex;
+  text-align: center;
+  padding: 100px 20px;
+  justify-content: center;
+}
+
+.section3item {
+  padding: 0px 20px;
+}
+.section3item1 {
+  flex: 1;
+}
+.section3item2 {
+  flex: 1;
+}
+.section3item3 {
+  flex: 1;
+}
+
+.fixlink {
+  color: #078f3e;
+}
+
+.fixlink:hover {
+  border-bottom: 1px solid #0abf53;
+  padding-bottom: 5px;
+}
+
+.section4card1 {
+  width: 50%;
+}
+
+.fxb {
+  background-color: #031033 !important;
+}
+
+.fbr {
+  border: 1px solid gray !important;
+  padding: 7px;
+}
+
+.s9f {
+  background-color: #0abf53;
+}
+
+.s9fb {
+  background-color: #031033 !important;
+}
+
+.fxs4-1 {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.fxs4-1 h2 {
+  font-size: 3rem !important;
+  font-weight: 700 !important;
+  line-height: 50px !important;
+}
+
+.fxs4-1 p {
+  font-size: 1.5rem !important;
+  margin-bottom: 20px !important;
+}
+
+.fxs4-2 h2 {
+  font-size: 30px !important;
+  font-weight: 900;
+}
+
+.fxs4-2 p {
+  font-size: 20px !important;
+  margin-bottom: 10px !important;
+}
+
+.fxfi li a {
+  list-style: none !important;
+  font-size: 18px;
+  color: white;
+}
+
+.fxfi li a:hover {
+  border-bottom: 1px solid #0abf53;
+}
+
+.footer-copyright {
+  padding: 0 10px !important;
+}
+
+.fxs5 {
+  margin: 20px 0px !important;
+}
+.ftso {
+  margin: 10px;
+}
+
+@media screen and (max-width: 730px) {
+  .section3 {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .section3item {
+    padding: 30px 0;
+  }
+  .fxs4-1 {
+    width: 100%;
+  }
+}
